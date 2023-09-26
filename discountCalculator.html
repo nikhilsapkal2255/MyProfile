@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discount Container</title>
+    <style>
+      #container {
+        position: absolute;
+        right: 600px;
+        top: 60px;
+      }
+      #button {
+        color: green;
+      }
+      #green{
+        font-style: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+    <fieldset>
+      <legend class="background"></legend>
+      <table>
+        <tbody>
+          
+            <form>
+              <tr>
+                <h2>Discount Calculator</h2>
+                <p>Enter the Bill Amount and discount in percentage</p>
+                <p>Bill Amount</p>
+                <label for="" id="details"></label>
+                <input type="text" autofocus maxlength="7" placeholder="" /> <br>
+                <label for="10">Discount Percentage</label>
+                <td>
+                  <select>
+                    <option value="button">10</option>
+                    <option value="button">9</option>
+                    <option value="button">8</option>
+                    <option value="button">7</option>
+                    <option value="button">6</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td id="button">
+                  <button type="Calculate" class="buttons">Calculate</button>
+                <p id="green">Total Discount Amount</p>
+              </tr>
+            </form>
+          </div>
+        </tbody>
+      </table>
+    </fieldset>
+  </body>
+</div>
+</html>

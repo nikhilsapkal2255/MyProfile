@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        #div1{
+            width: 160px;
+            height: 160px;
+            background-color: cadetblue;
+            display: inline-block;
+            border: 2px solid brown;
+            
+        }
+        #div2{
+            width: 160px;
+            height: 160px;
+            background-color: silver;
+            border: 2px solid brown;
+            display: inline-block;
+            position: relative;
+            top: 30px;
+            left: 40px;  
+            z-index: 2;
+         }
+        #div3{
+            width: 160px;
+            height: 160px;
+            background-color: blue;
+            border: 2px solid brown;
+            display: inline-block;
+        }
+        #div4{
+            width: 160px;
+            height: 160px;
+            background-color: aqua;
+            border: 2px solid brown;
+            display: inline-block;
+            position: absolute;
+            right: 50px;
+            bottom: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <p>lorem*21</p>
+    <div id="div1">div1</div>
+    <div id="div2">div2</div>
+    <div id="div3">div3</div>
+    <div id="div4">div4</div>
+</body>
+</html>
